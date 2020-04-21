@@ -7,7 +7,7 @@ root.title("Tkinter Tut")
 
 conn = sqlite3.connect("address_book.db")
 c = conn.cursor()
-'''
+'''#Remove these to create the .db file first, then exclude these for further use
 c.execute(""" CREATE TABLE addresses(
           first_name text,
           last_name text,
